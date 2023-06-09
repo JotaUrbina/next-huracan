@@ -1,0 +1,37 @@
+@mixin bgFull($url) {
+  width: 100%;
+  height: 100%;
+  background-image: url($url);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@mixin bgFilter {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(51, 51, 51, 0.85);
+  top: 0;
+  left: 0;
+}
+
+.hn-3sp {
+  @include bgFull(
+    "https://res.cloudinary.com/dagxjdcho/image/upload/v1685644792/imagenes/_MG_4133_jd6mwi.jpg"
+  );
+  &::after {
+    @include bgFilter;
+  }
+}
+
+.hn-88 {
+  @include bgFull(
+    "https://res.cloudinary.com/dagxjdcho/image/upload/v1685644792/imagenes/_MG_4083_j5kloe.jpg"
+  );
+  &::after {
+    @include bgFilter;
+  }
+}

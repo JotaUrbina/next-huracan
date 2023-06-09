@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menuItem {
+  @apply flex items-center justify-center relative bg-hnBlack;
+}
+.title {
+  @apply font-light tracking-normal text-3xl text-hnBlack;
+}
+
+.paraph {
+  @apply font-light leading-5 tracking-normal text-base text-hnBlack;
+}
+
+.specTitle {
+  @apply font-bold text-xl;
+}
+
+.specTxt {
+  @apply font-semibold text-lg leading-6;
+}
