@@ -1,13 +1,14 @@
 "use client";
 import React, { useState } from "react";
-import { gsap } from "gsap";
+import Link from "next/link";
 import CloseIcon from "../asset components/CloseIcon";
 import BurgerIcon from "../asset components/BurgerIcon";
 import ThreeSPIcon from "../asset components/ThreeSPIcon";
 import EightEightIcon from "../asset components/EightEightIcon";
-import "./navbar.scss";
 import HomeIcon from "../asset components/HomeIcon";
 import FileIcon from "../asset components/FileIcon";
+import { gsap } from "gsap";
+import "./navbar.scss";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,13 +51,17 @@ const Navbar = () => {
         {isOpen ? <CloseIcon /> : <BurgerIcon />}
       </div>
       <ul className="menu">
-        <li className="menuItem menuItem-1 ">
-          <HomeIcon className="w-4 h-4 stroke-white absolute left-1" />
-        </li>
+        <Link href="/">
+          <li className="menuItem menuItem-1 ">
+            <HomeIcon className="w-4 h-4 stroke-white absolute left-1" />
+          </li>
+        </Link>
 
-        <li className="menuItem menuItem-2">
-          <ThreeSPIcon className="w-4 h-4 fill-white absolute left-1" />
-        </li>
+        <Link href="/gallery">
+          <li className="menuItem menuItem-2">
+            <ThreeSPIcon className="w-4 h-4 fill-white absolute left-1" />
+          </li>
+        </Link>
 
         <li className="menuItem menuItem-3">
           <EightEightIcon className="w-4 h-4 fill-white absolute left-1" />
