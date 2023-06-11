@@ -22,7 +22,7 @@
   @include bgFull(
     "https://res.cloudinary.com/dagxjdcho/image/upload/v1685644792/imagenes/_MG_4133_jd6mwi.jpg"
   );
-  &::after {
+  &::before {
     @include bgFilter;
   }
 }

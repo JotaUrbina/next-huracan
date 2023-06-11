@@ -52,20 +52,22 @@ const Navbar = () => {
       </div>
       <ul className="menu">
         <Link href="/">
-          <li className="menuItem menuItem-1 ">
+          <li className="menuItem menuItem-1">
             <HomeIcon className="w-4 h-4 stroke-white absolute left-1" />
           </li>
         </Link>
 
-        <Link href="/gallery">
+        <Link href="/gallery/3sp">
           <li className="menuItem menuItem-2">
             <ThreeSPIcon className="w-4 h-4 fill-white absolute left-1" />
           </li>
         </Link>
 
-        <li className="menuItem menuItem-3">
-          <EightEightIcon className="w-4 h-4 fill-white absolute left-1" />
-        </li>
+        <Link href={"gallery/88"}>
+          <li className="menuItem menuItem-3">
+            <EightEightIcon className="w-4 h-4 fill-white absolute left-1" />
+          </li>
+        </Link>
 
         <li className="menuItem menuItem-4">
           <FileIcon className="w-4 h-4 stroke-white absolute left-1" />
