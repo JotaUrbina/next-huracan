@@ -69,9 +69,11 @@ const Navbar = () => {
           </li>
         </Link>
 
-        <li className="menuItem menuItem-4">
-          <FileIcon className="w-4 h-4 stroke-white absolute left-1" />
-        </li>
+        <Link href={"highlights"}>
+          <li className="menuItem menuItem-4">
+            <FileIcon className="w-4 h-4 stroke-white absolute left-1" />
+          </li>
+        </Link>
       </ul>
     </nav>
   );
