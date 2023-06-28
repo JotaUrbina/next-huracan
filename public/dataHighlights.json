@@ -1,0 +1,28 @@
+[
+  {
+    "id": "3sp",
+    "logo": "https://res.cloudinary.com/dagxjdcho/image/upload/v1686102448/assets/logo_3sp_completo_ymrgtu.svg",
+    "title": "ESTILO INCONFUNDIBLE.\nRENDIMIENTO DESTACADO",
+    "description": "Fabricada con la prestigiosa fibra de carbono Toray T700 y un diseño aerodinámico, esta rueda cortará todo a tu paso, proporcionándote un pedaleo competitivo en cualquier momento. Convierte cada trayecto en una experiencia de velocidad y rendimiento sin igual, elevando tu experiencia. No te conformes. Crea tu camino.",
+    "price": 590000,
+    "model": "HN 3SP",
+    "spec_one": "Carbono Toray T700",
+    "spec_two": "Pista de freno de carbono",
+    "spec_three": "Clincher",
+    "spec_four": "Color mate",
+    "img": "https://res.cloudinary.com/dagxjdcho/image/upload/v1686078040/imagenes/3SP-sin-fondo_vcvorc.png"
+  },
+  {
+    "id": "88",
+    "logo": "https://res.cloudinary.com/dagxjdcho/image/upload/v1686102453/assets/logo_88_completo_zwomac.svg",
+    "title": "MÁXIMO PLACER AL PEDALEAR",
+    "description": "Disfruta un pedaleo excepcional con el par 88. Diseñadas con los mismos estándares de calidad que la legendaria 3SP, estas ruedas destacan al reducir la resistencia frontal, brindándote un pedaleo suave y estable. Gracias a su piñón de 17 dientes, experimentarás un viaje sin igual. Descubre el equilibrio perfecto entre rendimiento y satisfacción en cada pedaleada.",
+    "price": 890000,
+    "model": "HN 88",
+    "spec_one": "Carbono Toray T700",
+    "spec_two": "Pista de freno de carbono",
+    "spec_three": "Clincher",
+    "spec_four": "Color mate",
+    "img": "https://res.cloudinary.com/dagxjdcho/image/upload/v1686078040/imagenes/3SP-sin-fondo_vcvorc.png"
+  }
+]

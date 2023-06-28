@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap/dist/gsap";
-import { scrollAnimation } from "@/app/utils/animations";
+import { scrollAnimation } from "@/utils/animations";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
